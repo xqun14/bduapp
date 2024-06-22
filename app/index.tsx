@@ -52,9 +52,8 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: -30,
     backgroundColor: '#FFFFFF',
-    borderRadius: 30
-
-
+    borderTopLeftRadius: 30,
+    borderTopRightRadius: 30
   },
   formContainer: {
     alignItems: 'center'
