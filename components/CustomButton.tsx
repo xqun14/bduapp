@@ -4,12 +4,11 @@ import { Link } from 'expo-router'
 const CustomButton = ({ title, to }) => {
     return (
         <View style={styles.btnDangNhap}>
-
-            <TouchableOpacity style={styles.button}>
-                <Link href={to} style={styles.link}>
+            <Link href={to} style={styles.link} asChild>
+                <TouchableOpacity style={styles.button}>
                     <Text style={styles.buttonText}>{title}</Text>
-                </Link>
-            </TouchableOpacity>
+                </TouchableOpacity>
+            </Link>
 
         </View>
     )
