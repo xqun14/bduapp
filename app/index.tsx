@@ -27,7 +27,7 @@ const Index = () => {
           <FormField title='Mssv' icon='user' value='Mã số sinh viên' type='text' />
           <FormField title='Mật khẩu' icon='password' value='Mật khẩu' type='pass' />
           <CustomButton title='Đăng Nhập'
-            to='/' />
+            to='/profile' />
           <Link style={styles.link} href='/forgotpassword'>Quên mật khẩu</Link>
         </View>
       </ScrollView>
