@@ -4,7 +4,7 @@ import React from 'react'
 const classschedule = () => {
     return (
         <View>
-            <Text>classschedule</Text>
+            <Text>Thời Khoá Biểu</Text>
         </View>
     )
 }

@@ -5,13 +5,13 @@ import React from 'react';
 const getIcon = (iconName: any) => {
     switch (iconName) {
         case 'user':
-            return require('../assets/images/icon/iconUser.png');
+            return require('../assets/images/icon/formfield/iconUser.png');
         case 'password':
-            return require('../assets/images/icon/iconPassword.png');
+            return require('../assets/images/icon/formfield/iconPassword.png');
         case 'rePassword':
-            return require('../assets/images/icon/iconRePassword.png');
+            return require('../assets/images/icon/formfield/iconRePassword.png');
         case 'gmail':
-            return require('../assets/images/icon/iconGmail.png');
+            return require('../assets/images/icon/formfield/iconGmail.png');
     }
 };
 

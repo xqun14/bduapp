@@ -4,7 +4,7 @@ import React from 'react'
 const examschedule = () => {
     return (
         <View>
-            <Text>examschedule</Text>
+            <Text>Lịch Thi</Text>
         </View>
     )
 }
